@@ -1,4 +1,8 @@
-﻿
+﻿@using aspnetmvc.Components
+
 @{
     Layout = "_Layout";
+    
 }
+
+@(await Html.RenderComponentAsync<Button>(RenderMode.Server, new { Text = "Default" }))

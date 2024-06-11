@@ -8,7 +8,7 @@
 
 
       <ItemGroup>
-         <ProjectReference Include = "..\aspnetmvcProject.Components\aspnetmvcProject.Components.csproj" />
+         <ProjectReference Include="..\aspnetmvc.Components\aspnetmvc.Components.csproj" />
     </ItemGroup>
 
 </Project>
