@@ -1,0 +1,14 @@
+@namespace Counter
+@using Button
+<h1>Counter</h1>
+
+<Button OnClick="IncrementCount" Text="Current count: @currentCount"></Button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
